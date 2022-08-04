@@ -1,0 +1,107 @@
+{
+  "lang":"en",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.4.0,<3.5.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"d583626a8",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null,
+    "mode":"default"
+  },
+  "labels":{
+    "tok2vec":[
+
+    ],
+    "ner":[
+      "College Name",
+      "Companies worked at",
+      "Degree",
+      "Designation",
+      "Email Address",
+      "Graduation Year",
+      "Location",
+      "Name",
+      "Skills",
+      "UNKNOWN",
+      "Years of Experience"
+    ]
+  },
+  "pipeline":[
+    "tok2vec",
+    "ner"
+  ],
+  "components":[
+    "tok2vec",
+    "ner"
+  ],
+  "disabled":[
+
+  ],
+  "performance":{
+    "ents_f":0.4619164619,
+    "ents_p":0.5893416928,
+    "ents_r":0.3797979798,
+    "ents_per_type":{
+      "Name":{
+        "p":0.9444444444,
+        "r":0.8095238095,
+        "f":0.8717948718
+      },
+      "Designation":{
+        "p":0.4929577465,
+        "r":0.4022988506,
+        "f":0.4430379747
+      },
+      "Location":{
+        "p":0.9230769231,
+        "r":0.1666666667,
+        "f":0.2823529412
+      },
+      "Degree":{
+        "p":0.6764705882,
+        "r":0.5348837209,
+        "f":0.5974025974
+      },
+      "College Name":{
+        "p":0.5476190476,
+        "r":0.5,
+        "f":0.5227272727
+      },
+      "Skills":{
+        "p":0.4137931034,
+        "r":0.2448979592,
+        "f":0.3076923077
+      },
+      "Companies worked at":{
+        "p":0.3913043478,
+        "r":0.36,
+        "f":0.375
+      },
+      "Graduation Year":{
+        "p":1.0,
+        "r":0.023255814,
+        "f":0.0454545455
+      },
+      "Email Address":{
+        "p":0.9130434783,
+        "r":0.5675675676,
+        "f":0.7
+      },
+      "Years of Experience":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      }
+    },
+    "tok2vec_loss":3466.0988375153,
+    "ner_loss":2983.7153659821
+  }
+}
